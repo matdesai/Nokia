@@ -1,0 +1,34 @@
+package logical;
+
+public class evenandoddvalue {
+	
+	
+	public static void main(String[] args) {
+		
+		
+		int ar[]= {1,2,3,4,5,6,7,8,9};
+		
+		
+		for(int i=0; i<=ar.length-1; i++) {
+			
+			if(ar[i]%2==0) {
+				
+				System.out.print(ar[i]+" ");
+			}
+			
+			//System.out.println();
+		}
+		
+		System.out.println();
+		for(int i=0; i<=ar.length-1;i++) {
+			
+			if(ar[i]%2==1) {
+				
+				System.out.print(ar[i]+" ");
+			}
+		}
+		
+		//System.out.println();
+	}
+
+}
